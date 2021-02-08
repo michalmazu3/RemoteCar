@@ -1,0 +1,25 @@
+ion-grid {
+    height: 100%;
+  
+      ion-row {
+      height: 20%;
+    }
+  }
+
+  ion-col {
+     text-align: center;
+  }
+
+  ion-button {
+    height: 100%;
+ }
+
+ ion-icon {
+    zoom: 3.5;
+ }
+
+
+ 
+ .rotate-45 {
+    transform: rotateY(0deg) rotate(45deg); /* needs Y at 0 deg to behave properly*/
+  }

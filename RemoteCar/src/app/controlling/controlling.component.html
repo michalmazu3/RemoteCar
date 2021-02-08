@@ -1,0 +1,58 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title>Controlling</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+  <ion-grid style="margin-top:10%;">
+
+    <ion-row  class="ion-align-items-center ion-justify-content-end"    >
+      <ion-col>
+        <ion-button  (click)="move('upleft')" expand="full" fill="clear" >
+          <ion-icon name="square"></ion-icon>
+                  </ion-button>     
+         </ion-col> 
+      <ion-col  >
+        <ion-button (click)="move('up')"  expand="full" fill="clear"  >
+          <ion-icon name="chevron-up-circle"></ion-icon>
+         </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="move('upright')"  expand="full" fill="clear"  >
+          <ion-icon name="square"></ion-icon>
+
+          </ion-button>   
+           </ion-col>
+    </ion-row>
+    <ion-row  class="ion-align-items-center ion-justify-content-end"    >
+      <ion-col>
+        <ion-button (click)="move('left')" expand="full" fill="clear"  >
+          <ion-icon name="chevron-back-circle"></ion-icon>
+          </ion-button>    
+         </ion-col>
+      <ion-col>
+        <div> </div>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="full" (click)="move('right')" fill="clear"  >
+          <ion-icon name="chevron-forward-circle"></ion-icon>
+           </ion-button>    
+          </ion-col>
+    </ion-row>
+    <ion-row  class="ion-align-items-center ion-justify-content-end"    >
+      <ion-col>
+        <ion-button expand="full" (click)="move('downleft')" fill="clear"  >
+          <ion-icon name="square"></ion-icon>
+          </ion-button>          </ion-col>
+      <ion-col>
+        <ion-button expand="full" (click)="move('down')" fill="clear"  >
+          <ion-icon name="chevron-down-circle"></ion-icon>
+
+          </ion-button>      </ion-col>
+      <ion-col>
+        <ion-button expand="full" (click)="move('downright')" fill="clear"  >
+          <ion-icon name="square"></ion-icon>
+          </ion-button>          </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

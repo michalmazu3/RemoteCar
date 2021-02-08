@@ -1,0 +1,7 @@
+{
+  "name": "RemoteCar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
